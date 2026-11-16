@@ -1,84 +1,89 @@
 ---
 name: site-claudia-de-paula
-description: Cria e aprimora o site institucional do escritório de advocacia Claudia de Paula, com identidade visual preta, branca e dourada, design contemporâneo, recursos 3D elegantes e comunicação jurídica ética. Use em tarefas de criação, revisão ou melhoria do site do escritório.
+description: Cria, revisa e aprimora o site institucional de Cláudia de Paula Advocacia. Use para estruturar a página, escrever os textos, aplicar a identidade visual do escritório ou corrigir um layout genérico.
 ---
 
-# Site do escritório Claudia de Paula
+# Site de Cláudia de Paula Advocacia
 
 ## Objetivo
 
-Criar um site institucional para o escritório de advocacia Claudia de Paula que transmita confiança, excelência, clareza e sofisticação. O resultado deve ter identidade própria, ser interativo e tecnicamente bem executado — sem aparência de template genérico ou de interface gerada automaticamente.
+Crie um site institucional curto, elegante e fácil de usar pelo celular. Na primeira tela, apresente quem atende, em quais assuntos atua e como entrar em contato. Use uma página com quatro âncoras no menu: Início, Atuação, Sobre e Contato.
 
-## Antes de alterar o projeto
+Quando houver um projeto existente, examine o layout, os ativos, a estrutura e os comandos de verificação antes de editar. Reaproveite a arquitetura e os componentes que servirem à nova direção. Para um projeto novo, use a solução mais simples compatível com o ambiente. Entregue uma prévia navegável para revisão. Publique quando solicitado.
 
-1. Examine a estrutura, o framework, as dependências e os componentes existentes.
-2. Identifique como o projeto é executado e quais comandos de teste, build ou lint estão disponíveis.
-3. Preserve a arquitetura e os padrões já adotados. Não troque de framework nem adicione dependências sem necessidade.
-4. Se o projeto estiver vazio, escolha uma solução simples e compatível com as ferramentas já disponíveis.
-5. Não apague trabalho existente sem necessidade.
+## Identidade visual
 
-## Direção visual
+- Use marfim `#F6F1E8` como fundo principal, preto quente `#181514` para texto e rodapé, vermelho vinho profundo `#651C27` para a abertura ou um bloco de destaque e dourado champagne `#C4A36B` no monograma e nos detalhes.
+- Use títulos em Playfair Display, com serifas expressivas e peso médio. Use Source Sans 3 para textos, navegação e botões. Use o itálico da própria serifa para um destaque pontual. Reserve qualquer caligrafia para uma assinatura visual curta.
+- Das referências em vermelho, aproveite a combinação de vinho profundo e texto claro. Das referências tipográficas, aproveite os títulos grandes, o espaço em volta do texto e o dourado discreto sobre fundo escuro.
+- Monte a abertura em duas colunas no desktop, com texto à esquerda e retrato real autorizado da Dra. Cláudia à direita. No celular, coloque título, descrição e botão antes do retrato. Se o arquivo do retrato ainda não estiver disponível, use o monograma oficial sobre o fundo vinho.
+- Use a foto do Instagram como referência de cor. Para publicar um retrato, use a fotografia original, com o rosto bem iluminado e enquadramento natural.
+- Preserve o desenho oficial do monograma CP, da espada, da balança e dos louros. Use o monograma em tamanho reduzido no cabeçalho, com o nome do escritório em texto legível. A versão completa pode aparecer no rodapé, com margem para o nome e a inscrição. Use um único símbolo jurídico, o que já integra a marca.
+- Use linhas finas, blocos de cor chapada e espaço em branco. Apresente as áreas em uma lista editorial com divisórias. Evite cartões repetidos, efeitos metálicos, gradientes, carrosséis, 3D, vídeos automáticos, ícones decorativos e elementos flutuantes que cubram conteúdo.
+- Use apenas transições discretas nos controles e respeite `prefers-reduced-motion`.
 
-- Use preto, branco e dourado com equilíbrio e contraste. O dourado deve ser um acento refinado, não preencher grandes áreas sem propósito.
-- Crie uma estética editorial, contemporânea e luxuosa, inspirada em design de marcas premium e publicações jurídicas de alto padrão.
-- Evite os clichês de sites jurídicos: martelo de juiz, balança da justiça em destaque, colunas clássicas genéricas, excesso de serifas decorativas e blocos de texto padronizados.
-- Evite também o visual genérico de “site de IA”: gradientes aleatórios, cartões repetidos, brilho excessivo, ícones sem função, frases vagas e layouts sem hierarquia.
-- Combine tipografia expressiva e legível. Use fontes disponíveis no projeto; se for necessário buscar uma fonte externa, explique a escolha e ofereça uma alternativa segura.
-- Use espaço em branco, alinhamento preciso, escala tipográfica e detalhes gráficos para criar personalidade.
-- Dê preferência a imagens reais e autorizadas do escritório, da profissional ou de espaços relacionados. Não invente retratos, logotipos, depoimentos, clientes ou imagens que aparentem representar pessoas reais.
-- Se não houver imagens fornecidas, crie uma composição visual abstrata e elegante ou use áreas reservadas claramente identificadas para substituição posterior.
+## Estrutura e textos
 
-## Interação e elementos 3D
+### Início
 
-- Inclua movimento com propósito: transições suaves, estados de hover, entrada discreta de conteúdo e feedback claro para ações.
-- Recursos 3D devem ser elegantes e leves, como profundidade em camadas, perspectiva em elementos gráficos ou uma composição abstrata controlada.
-- Não use animação apenas como decoração. Preserve legibilidade e priorize carregamento rápido.
-- Respeite `prefers-reduced-motion`; ofereça uma experiência adequada para quem reduz animações.
-- Garanta que navegação, conteúdo e chamadas à ação funcionem sem efeitos 3D ou animações.
-- Evite movimentos que causem tontura, distração ou dificultem a leitura.
+Título: Cláudia de Paula Advocacia
 
-## Estrutura e conteúdo
+Texto: Atuação em Direito Previdenciário e inventários, com sede em Goianésia (GO).
 
-Quando os dados estiverem disponíveis, organize o site com seções adequadas ao escritório, por exemplo:
+Botão principal: Contato
 
-1. Cabeçalho com nome ou logotipo e navegação clara.
-2. Seção inicial com posicionamento profissional e chamada para contato.
-3. Apresentação da advogada e do escritório.
-4. Áreas de atuação — somente as confirmadas pela cliente.
-5. Forma de atendimento ou diferenciais — somente os confirmados.
-6. Conteúdo informativo ou artigos, se fizerem parte do projeto.
-7. Perguntas frequentes, se houver informações aprovadas.
-8. Contato com canais reais e instruções claras.
-9. Rodapé com informações institucionais e links necessários.
+Leve o visitante à seção de contato da própria página. Apresente a marca, o texto e o botão sem inserir uma segunda frase promocional.
 
-Escreva em português do Brasil, com linguagem clara, acolhedora e profissional. Prefira conteúdo específico e conciso a slogans vagos. Não use textos fictícios de preenchimento na versão final.
+### Atuação
 
-## Ética e precisão jurídica
+Use duas áreas principais. Dentro de Direito Previdenciário, dê destaque próprio a auxílio-acidente e aposentadorias. Mantenha cada descrição em uma ou duas frases.
 
-- Nunca invente OAB, formação, especializações, experiência, endereço, telefone, horário, clientes, depoimentos, prêmios ou resultados.
-- Se faltarem informações, deixe campos claramente identificados para preenchimento, como `[INSERIR NÚMERO DA OAB]` ou `[CONFIRMAR ÁREAS DE ATUAÇÃO]`.
-- Não prometa vitória, resultado, rapidez, indenização ou qualquer desfecho de caso.
-- Não crie urgência enganosa, comparações depreciativas nem afirmações de superioridade sem comprovação.
-- Mantenha a comunicação informativa e institucional. A profissional deve validar o conteúdo jurídico e publicitário antes da publicação, inclusive em relação às regras aplicáveis da OAB.
-- Não exponha dados confidenciais de clientes. Não use casos reais como exemplo sem autorização expressa e revisão adequada.
-- Se criar formulário, solicite apenas os dados necessários, explique o propósito e não dê a entender que o envio cria automaticamente uma relação advogado-cliente.
-- Não invente uma política de privacidade. Se houver coleta de dados, sinalize que o texto de privacidade precisa ser fornecido ou revisado pelo escritório.
+**Direito Previdenciário**
 
-## Requisitos técnicos
+Orientação sobre requerimentos e decisões do INSS, com análise da documentação de cada caso.
 
-- Faça o site funcionar em telas pequenas, médias e grandes.
-- Use HTML semântico, estrutura acessível, foco visível, navegação por teclado, rótulos em formulários e textos alternativos úteis.
-- Verifique contraste suficiente entre texto e fundo, especialmente para o dourado sobre preto ou branco.
-- Otimize imagens e animações; evite dependências pesadas e scripts desnecessários.
-- Não deixe links, botões ou formulários sem comportamento funcional. Se um destino ou integração ainda não existir, sinalize isso claramente.
-- Preserve compatibilidade com navegadores modernos e os padrões do projeto.
-- Não coloque chaves, tokens ou dados sensíveis no código.
+**Auxílio-acidente**
 
-## Fluxo de trabalho
+Análise de casos em que um acidente deixou sequelas que afetam o desempenho do trabalho habitual.
 
-1. Inspecione o projeto e resuma brevemente o que já existe.
-2. Identifique as informações que faltam, sem inventá-las.
-3. Implemente a página ou melhoria solicitada seguindo esta skill.
-4. Revise visualmente a hierarquia, responsividade, acessibilidade e funcionamento dos controles.
-5. Execute os testes, o lint ou o build disponíveis. Corrija problemas introduzidos pela alteração.
-6. Ao concluir, informe quais arquivos foram alterados, o que foi implementado, quais verificações foram executadas e quais dados ainda precisam ser fornecidos pelo escritório.
+**Aposentadorias**
+
+Análise do histórico de contribuições e dos documentos para orientar o pedido de aposentadoria.
+
+**Inventário**
+
+Orientação às famílias sobre a documentação, a regularização e a partilha de bens.
+
+Use as rotinas recorrentes do escritório, como análise de CNIS, requerimentos e indeferimentos, para dar precisão ao texto. Mantenha BPC, benefícios por incapacidade e outras frentes fora do menu inicial. Inclua novas áreas quando o escritório aprovar a divulgação. Preserve o sigilo de clientes, processos e documentos.
+
+### Sobre
+
+Título: Dra. Cláudia de Paula
+
+Texto: Cláudia de Paula Alves Rodrigues, advogada inscrita na OAB/GO sob o nº 66.164. Atua em Direito Previdenciário e inventários, com sede em Goianésia (GO).
+
+Apresente o retrato original autorizado, se disponível. Publique formação, títulos, modalidades de atendimento e abrangência geográfica após confirmação do escritório. Preserve a grafia da marca no logotipo e use o nome completo da profissional no texto institucional.
+
+### Contato e rodapé
+
+Título: Contato
+
+Mostre Goianésia (GO) e os canais oficiais confirmados. Use o botão “WhatsApp do escritório” quando o link direto estiver validado. Exiba o Instagram como link secundário, após confirmar o perfil exato. Se o contato estiver em transição, mantenha na prévia apenas os destinos disponíveis e indique ao escritório qual canal falta confirmar.
+
+No rodapé, use o monograma ou o nome do escritório e repita a identificação profissional e a OAB/GO. Inclua endereço completo, horários e demais links somente com dados confirmados.
+
+Use contato direto na versão inicial. Deixe blog, FAQ, formulários, depoimentos, métricas e páginas adicionais para pedidos específicos.
+
+## Tom e publicidade
+
+Escreva em português do Brasil, com frases curtas e palavras que o cliente usa. Prefira “pedido ao INSS” a expressões processuais. Elimine slogans vagos, superlativos, promessas, comparações, anúncios de gratuidade e chamadas de urgência.
+
+Mantenha a comunicação informativa e sóbria. Use informações objetivas e verificáveis. Submeta o texto à revisão da advogada antes da publicação, conforme as normas de publicidade da OAB, incluindo o Provimento nº 205/2021. Use como referência o texto oficial em https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021.
+
+## Implementação e revisão
+
+- Ordene as seções na sequência Início → Atuação → Sobre → Contato e faça o menu funcionar por âncoras.
+- Use HTML semântico, foco visível, navegação por teclado, contraste adequado e textos alternativos nos ativos informativos. Mantenha o texto corrido com pelo menos 16 px e confira a leitura dos títulos no celular.
+- Otimize as imagens para a web e preserve a nitidez do monograma. Evite dependências de animação e imagens pesadas quando os recursos existentes forem suficientes.
+- Revise a página no celular e no desktop. Confira se o primeiro título, a descrição e o acesso ao contato aparecem logo na abertura. Verifique legibilidade, recortes, menu, links e botões.
+- Execute o build e as verificações disponíveis no projeto. Ao entregar, informe o que foi alterado, o que foi verificado e quais dados públicos ainda precisam de confirmação.
